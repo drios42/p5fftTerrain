@@ -102,12 +102,12 @@ function draw() {
         if (x < bands - 1) {
           vertex(x * scl, (y + 1) * scl, terrain[y][x]);
         }
-        // if (x < bands - 2) {
-        //   vertex((x+1) * scl, (y + 1) * scl, terrain[y][x+1]);
-        // }
-        // if (y > 0) {
-        //   vertex(x * scl, y * scl, terrain[y - 1][x]);
-        // }
+        if (x < bands - 2) {
+          vertex((x+1) * scl, (y + 1) * scl, terrain[y][x+1]);
+        }
+        if (y > 0) {
+          vertex(x * scl, y * scl, terrain[y - 1][x]);
+        }
          
       } else {}
     }
