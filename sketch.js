@@ -22,7 +22,7 @@ var rotZ;
 var ext = 10;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+  createCanvas(windowWidth, windowHeight, webgl);
  
   fft = new p5.FFT(0.85, bands);
   // create audion in
