@@ -106,37 +106,6 @@ function draw() {
     }
     endShape();
   }
-  //fill(255, 0, 0);
-//  for (var y = 0; y < terrain.length; y++) {
-//     beginShape();
-//     for (var x = 0; x < spectrum.length; x++) {
-//       //   terrain[x][y] = map(spectrum[x], 0, 10, -100, 8000);
-//       //   terrain [x][y]= map(noise(xoff, yoff), 0, 1, -scl*5, scl*5) ;
-//       //  xoff +=.1;
-//       if (y < lines - 1) {
-//         if (y == 0) { // baseline starting at 0
-//           vertex(x * scl, y * scl, 0);
-//         }
-//         if (y > 0) {
-//           vertex(x * scl, y * scl, 0);
-//         }
-//         if (x < bands - 1) {
-//           vertex(x * scl, (y + 1) * scl, 0);
-//         }
-//         if (x < bands - 2) {
-//           vertex((x + 1) * scl, (y + 1) * scl, 0);
-//         }
-//         // if(y> ){
-
-//         // }
-
-//       } else {
-
-//       }
-//     }
-//     endShape();
-//   }
-
 
 
 
