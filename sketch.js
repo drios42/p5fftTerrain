@@ -61,8 +61,7 @@ function draw() {
   flying -= 10;
   var yoff = flying;
 
-  var c = color(0, 255, 255);
-  stroke(c);
+ 
   noFill();
   translate(-width / 2, 0, -40);
   rotateX(radians(-60));
