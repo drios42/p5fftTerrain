@@ -62,7 +62,7 @@ function draw() {
   var yoff = flying;
 
  
-  noFill();
+  //noFill();
   translate(-width / 2, 0, -40);
   rotateX(radians(-60));
 
