@@ -74,7 +74,7 @@ function draw() {
   // update the terrain
   //terrain[counter] = spectrum;
 
-  fill(0, 255, 0);
+  //fill(0, 255, 0);
 
   for (var y = 0; y < terrain.length; y++) {
     beginShape();
